@@ -21,4 +21,14 @@ public class Potencia_Cuadrado {
 	    return resultado;
     }
 
+    public static double raiz_cubica (double numero) {
+	    double resultado =  Math.pow(numero, 1.0/3.0); 
+	    return resultado;
+    }
+
+    public static double potencia_cubica (double numero) {
+	    double resultado =  Math.pow(numero, 3); 
+	    return resultado;
+    }
+
 }
