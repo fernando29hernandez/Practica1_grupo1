@@ -31,4 +31,12 @@ public class Potencia_Cuadrado {
 	    return resultado;
     }
 
+    public static double multiplicacion (double n1, double n2) {
+	    return n1 * n2;
+    }
+
+    public static double division (double n1, double n2) {
+	    return n1 / n2;
+    }
+
 }
