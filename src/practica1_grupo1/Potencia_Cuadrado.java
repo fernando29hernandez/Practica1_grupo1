@@ -7,7 +7,7 @@ package practica1_grupo1;
 
 /**
  *
- * @author yoselin
+ * @author yoselin, omar
  */
 public class Potencia_Cuadrado {
     
@@ -16,4 +16,9 @@ public class Potencia_Cuadrado {
 	return resultado;
     }
     
+    public static double raiz_cuadrada (double numero) {
+	    double resultado = Math.sqrt(numero);
+	    return resultado;
+    }
+
 }
